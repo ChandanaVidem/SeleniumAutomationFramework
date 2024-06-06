@@ -30,7 +30,7 @@ public class Base {
 
     @BeforeTest
     public void createReportsForTests(ITestContext context) {
-        driver.get("https://demoqa.com/");
+        driver.get("https://www.espncricinfo.com/");
         extentTest = extent.createTest(context.getName());
     }
 

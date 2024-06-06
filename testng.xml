@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="PetStore Tests">
+        <parameter name="author" value="chandana"></parameter>
+        <classes>
+            <class name="com.selenium.tests.ESPNHomePageTests">
+            </class>
+        </classes>
+
+    </test>
+    <listeners>
+        <listener class-name="com.selenium.baseactions.TestNGListenersClass"/>
+    </listeners>
+</suite>
